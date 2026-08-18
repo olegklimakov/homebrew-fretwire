@@ -1,8 +1,8 @@
 cask "fretwire" do
   # Both lines are rewritten by scripts/release.sh in the app repository once a
   # release is published; the checksum is of the image attached to that tag.
-  version "0.1.0"
-  sha256 "138b1f485c1abc0310c49bf0a2a7051b5ee7ff173b24b6f3e15cc52b4af43235"
+  version "0.2.0"
+  sha256 "4e325ad5b61ab2492cf45572e36628c0e04fa9fbb2f75a529a6d5434a164ebfd"
 
   url "https://github.com/olegklimakov/fretwire/releases/download/v#{version}/Fretwire-#{version}.dmg"
   name "Fretwire"
